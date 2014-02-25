@@ -414,3 +414,14 @@ img { margin: 0px; padding: 0px; border: none;}
 #templatemo_footer a{
 	color:#333;
 }
+
+#operator {
+position:fixed;
+width:22px;
+height:180px;
+top:250px;
+left:0;
+}
+
+
+
