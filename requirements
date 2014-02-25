@@ -1,0 +1,20 @@
+Functional requirements:
+•	Search (by departments and professors);
+•	Login the user;
+•	Register the user;
+•	Rate the professor,
+•	Show the info about each professor, any kind of rating
+
+Feature list:
+•	Like;
+•	Tweet;
+•	Rate the professor from another university/school;
+•	Ans from the professor
+
+Not doing list:
+•	Search by the rating;
+•	The map of Kyrgyzstan with all schools and universities
+
+User stories:
+•	Simple user, who can view everything but can’t rate;
+•	The registered user who is Simple user + can rate
