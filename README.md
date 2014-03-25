@@ -1,4 +1,4 @@
 rating
 ======
 
-rate
+rate rate
