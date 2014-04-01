@@ -24,3 +24,10 @@ function submitForm() {
 		}
 	
 	});
+$.validator.addMethod("agreementCheck", function(value, element){
+		if ($('#agreementChkDiv').css('visibility') == 'visible') {
+			if($("#userAccessAgreeKey").is(':checked'))
+				return true;
+		}
+	});
+}
