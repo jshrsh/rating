@@ -117,7 +117,18 @@
                 <!-- <li><a href="#" class="last">Contact</a></li> -->                     
             </ul> 
 	    </div> <!-- end of menu -->
-        
+        <?php 
+				if(isset($id) and !empty($id))
+				{
+					switch($id)
+					{
+						case 3:
+							include "Allprof.php";
+							exit;
+						break;
+					}
+				}
+			?>
         <div id="templatemo_banner">
         	
         </div> <!-- end of banner -->
