@@ -117,3 +117,27 @@ var str1=str;
 var iii=0;
 var rstr="";
 var flag=false;
+if((isNaN(str1.charAt(0))))
+  {
+  return str1;
+  }
+else
+  {
+	while((!(isNaN(str1.charAt(iii))) && iii < str1.length))
+   		{
+    	iii++;
+    	flag=true;   
+   		}
+   rstr= "__" + str1.substring(iii,str1.length); 
+   return rstr; 
+  }
+}
+</script>
+<noscript>
+	<a href="https://ad.doubleclick.net/jump/rmp.mtvi/_hp;tile=1;sz=728x90;ord=123456789?" target="_blank">
+		<img src="https://ad.doubleclick.net/ad/rmp.mtvi/_hp;tile=1;sz=728x90;ord=123456789?" width="728" height="90" border="0" alt="" />
+	</a>
+</noscript>
+</body>
+</html>
+</div>-->
