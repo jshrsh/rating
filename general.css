@@ -12,3 +12,15 @@
 	overflow:hidden;
 	margin-bottom:10px;
 }
+#left_content{
+	float:left;
+	margin-left:5px;
+	width:150px;
+}
+#left_content > img{
+	border:1px outset #323232;
+}
+#right_content{
+	float:left;
+	margin-left:10px;
+}
