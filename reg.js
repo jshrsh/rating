@@ -83,3 +83,37 @@ else if((lp.indexOf("SelectSchool")> -1) && lp.indexOf("member")== -1 )
 			 jjj++;
 			}
 		  }
+sectionParamAndValue += "sec" + jjj + "=_mn;sec" + ++jjj + "=_" + country1 ;
+		  sectionParam +="/_mn/_" + country1;
+  }
+ 	document.write ( "<script language='JavaScript' src='https:\/\/ad.doubleclick.net\/adj\/rmp.mtvi\/atf_j_s\/" + fnm + sectionParam + ";" + sectionParamAndValue + ";pos=atf;tag=adj;mtype=standard;sz=728x90;tile=1;dcopt=ist;u=" + (sectionParamAndValue.replace(/;/g,'|')).replace(/=/g,'-') + "|pos-atf|tag-adj|mtype-standard|sz-728x90|tile-1|dcopt-ist;ord=20140401012337" + ordJS + ";' type='text\/javascript'><\/script>");
+    //alert( "'https:\/\/ad.doubleclick.net\/adj\/rmp.mtvi\/atf_j_s\/" + fnm + sectionParam + ";" + sectionParamAndValue + ";pos=atf;tag=adj;mtype=standard;sz=728x90;tile=1;dcopt=ist;u=" + (sectionParamAndValue.replace(/;/g,'|')).replace(/=/g,'-') + "|pos-atf|tag-adj|mtype-standard|sz-728x90|tile-1|dcopt-ist;ord=20140401012337" + ordJS + ";'type=");
+	// 1 x 2 ads
+ 	document.write ( "<script language='JavaScript' src='https:\/\/ad.doubleclick.net\/adj\/rmp.mtvi\/btf_j_s\/" + fnm + sectionParam + ";" + sectionParamAndValue + ";pos=btf;tag=adj;mtype=standard;sz=1x2;tile=1;u=" + (sectionParamAndValue.replace(/;/g,'|')).replace(/=/g,'-') + "|pos-btf|tag-adj|mtype-standard|sz-1x2|tile-1;ord=20140401012337" + ordJS + ";' type='text\/javascript'><\/script>");
+function RepBadChars(badstr) {
+   var str="";
+   str=badstr;
+   var invalidch= ["-","`","&",";","~",":","?","@","{","}","^","$","\\","%","|"," "];
+   var iii=0;
+   var jjj=0;
+   var strnew;
+       
+    for(iii=0; iii < str.length ;iii++)
+	   {
+       for(jjj=0;jjj< invalidch.length; jjj++)
+          {  
+            if(str.charAt(iii)==invalidch[jjj])
+              { strnew = str.split(str.charAt(iii));
+            	strnew = strnew.join("_");
+            	str=strnew;
+                break;
+              }      
+          } 
+      } 
+    return str;
+}   
+function RepBeginningNumber(str){
+var str1=str;
+var iii=0;
+var rstr="";
+var flag=false;
