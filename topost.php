@@ -12,3 +12,19 @@
 		#check if rate has been selected
 		if(isset($rate) and !empty($rate))
 		
+{
+			$txt = "";
+			#not neccessary check if comment field has been filled or not
+			if(isset($comment) and !empty($comment))
+			{
+				$txt = $comment;
+			}
+			$q = "
+				INSERT INTO comment(p_id,comment,rating) VALUES('".$uid."','".$txt."','".$rate."') 
+			";#inserting data into db
+			$q = mysql_query($q);
+			#returing to main page
+			header("Location: ".$_SERVER['HTTP_REFERER']);
+		}
+	}
+?>
