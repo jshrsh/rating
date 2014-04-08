@@ -7,3 +7,13 @@
 .img{
 	margin-left:5px;
 }
+.name{
+	display:inline-block;
+	position:relative;
+	bottom:70px;
+}
+.val{
+	position:absolute;
+	bottom:30px;
+	left:110px;
+}
