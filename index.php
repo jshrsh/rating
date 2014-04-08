@@ -135,3 +135,74 @@
 					}
 				}
 			?>
+<div id="templatemo_banner">
+        	
+        </div> <!-- end of banner -->
+        
+        <div id="templatemo_right_column_content">
+			<div class="right_column_content_section_01">
+            	<div class="content_haeder_01">Welcome to our website RATE MY PROFESSOR!</div>
+                
+                <div class="image_with_frame float_left">
+                	<img src="images/man.png" alt="image" />
+                    <span></span>
+                </div>
+                
+                <p>Rate My Professor website is the largest online destination for professor ratings. Users have added more than 14 million ratings and 1.3 million professors. User-generated content makes site the highest trafficked site for quickly researching and rating professors. JOIN THE FUN! =)</p>
+            </div>
+            
+            <div class="cleaner_h60">&nbsp;</div>
+            
+            <div class="right_column_content_section_01">
+            	<div class="right_column_2col margin_right_60">
+                	<div class="content_haeder_02">Nina Bagdasarova, Psychology dep.</div>
+                    <p>"Psychology is an important underpinning for the development of academic and business spheres"</p>
+                    <div class="rc_btn_01"><a href="#">Read more</a></div>
+                </div>
+                
+                <div class="right_column_2col">
+                	<div class="content_haeder_03">Steven Lustig, BA Chair</div>
+                    <p>"A liberal arts model of education truly provides students of the knowledge and skills to compete in a rapidly changing world."</p>
+                    <div class="rc_btn_01"><a href="#">Read more</a></div>
+                </div>
+                
+                <div class="cleaner">&nbsp;</div>
+            </div>
+            
+            <div class="cleaner_h30">&nbsp;</div>
+        </div> <!-- end of right column content -->
+    	<div class="cleaner">&nbsp;</div>
+    	<div id="templatemo_right_colum_bottom">&nbsp;</div>
+    
+    </div> <!-- end of right column -->
+    <div class="cleaner">&nbsp;</div> 
+    
+    <div id="templatemo_footer">
+        Copyright © 2014 <a href="#"><strong>sfw109 Students</strong></a> 
+    </div>	
+</div> <!-- end of container -->
+
+
+
+<div id="operator">
+	<a href="contact/contact.html"><img src="images/operator.png" width="22" height="180"</a>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.3.1/jquery.min.js'></script>
+<script type='text/javascript' src='js/logging.js'></script>
+</body>
+</html>
