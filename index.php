@@ -119,4 +119,19 @@
                 <!-- <li><a href="#" class="last">Contact</a></li> -->                     
             </ul> 
 	    </div> <!-- end of menu -->	
-	
+	<?php 
+				if(isset($id) and !empty($id))
+				{
+					switch($id)
+					{
+						case 3:
+							include "Allprof.php";
+							exit;
+						break;
+						case 4:
+							include "rating.php";
+							exit;
+						break;
+					}
+				}
+			?>
