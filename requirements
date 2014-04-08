@@ -5,9 +5,11 @@ Functional requirements:
 •	Rate the professor,
 •	Show the info about each professor, any kind of rating
 
+
 Feature list:
 •	Like;
 •	Tweet;
+•	Comment;
 •	Rate the professor from another university/school;
 •	Ans from the professor
 
@@ -17,4 +19,4 @@ Not doing list:
 
 User stories:
 •	Simple user, who can view everything but can’t rate;
-•	The registered user who is Simple user + can rate
+•	The registered user who is Simple user + can rate + comment
